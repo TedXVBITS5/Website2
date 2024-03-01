@@ -20,20 +20,31 @@
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
     <link rel="icon" href="../Resources/Favicon/favicon.ico" type="image/png" sizes="16x16">
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TBNNZ2X');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TBNNZ2X');
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7LHKWTEY"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224178361-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-224178361-1');
@@ -43,13 +54,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <!-- FONT ASWM  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="Speakers.css" />
@@ -64,8 +73,7 @@
             style="display:none;visibility:hidden"></iframe></noscript>
 
 
-    <img class="img-fluid w-75 illustration-left-homepage h-75" src="Resources/Speakers/illustration-left-homepage.svg"
-        alt="" srcset="">
+    <img class="img-fluid w-75 illustration-left-homepage h-75" src="Resources/Speakers/illustration-left-homepage.svg" alt="" srcset="">
 
 
     <!-- Right illustration -->
@@ -76,12 +84,10 @@
         <div class="container">
             <!-- Navbar Logo -->
             <a class="navbar-brand" href="../index.html">
-                <img class="w-75" src="Resources/Speakers/navbarlogo.svg" alt="" srcset="" />
+                <img class="w-50" src="../Resources/Images/HomePage/tedxlogo.png" alt="" srcset="" />
             </a>
             <!-- Hamburger Menu -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -89,14 +95,13 @@
                 <ul class="navbar-nav ms-auto px-3">
 
                     <li class="nav-item px-4">
+                        <a class="nav-link hover-underline-animation" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
                         <a class="nav-link hover-underline-animation" href="Speakers.html">Speakers</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link hover-underline-animation" href="../Sponsors/sponsors.html">Sponsor</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link hover-underline-animation"
-                            href="../Discover Final/Discover.html">Discover</a>
+                        <a class="nav-link hover-underline-animation" href="../Discover Final/Discover.html">Theme</a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link hover-underline-animation" href="../MEET_TEAM/meet_team.html">Team</a>
@@ -105,12 +110,10 @@
                         <a class="nav-link hover-underline-animation" href="../About-tedx/index.html">FAQ's</a>
                     </li>
                 </ul>
-                <form class=" px-3 py-2" action="../Registeration Forms/becomeaSpeaker.html">
-
+                <form class="px-3 py-2" action="javascript:void( window.open( 'https://bit.ly/TEDxVBITS5', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) )">
                     <button class="btn btn-outline-danger btn-custom">
-                        Become a Speaker <i class="bi bi-chevron-right ps-1"></i>
-                    </button>
-
+            Get Pass
+          </button>
                 </form>
 
 
@@ -150,10 +153,10 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/AbhisekhKar.png"
-                                            class="card-img-top img-card" alt="...">
-                                        <h5 class="card-title-front">Abhishek
-                                            Kar</span></h5>
+                                        <img src="Resources/Speakers_images/AbhisekhKar.png" class="card-img-top img-card" alt="...">
+                                        <h5 class="card-title-front">Abhishek Kar
+                                            </span>
+                                        </h5>
                                         <p class="lead card-text-front">Full Time Trader & Social Media Influencer</p>
 
                                     </div>
@@ -169,13 +172,10 @@
 
                                             <h5 class="card-title-back ">Abhishek Kar</h5>
                                             <p class="card-text py-3 ">
-                                                He has won
-                                                various prestigious awards including Young Leadership Award by JSK Group
-                                                and Youth Inspiration Award by Poornawadi Group.
+                                                He has won various prestigious awards including Young Leadership Award by JSK Group and Youth Inspiration Award by Poornawadi Group.
                                             </p>
                                             <div class="social-icons">
-                                                <a class="facebook-icon-footer"
-                                                    href="https://www.facebook.com/abhishekkarofficial  "><i
+                                                <a class="facebook-icon-footer" href="https://www.facebook.com/abhishekkarofficial  "><i
                                                         class="bi bi-facebook px-1"></i></a>
                                                 <a href="https://www.instagram.com/abhishekkarofficial/"><i class="bi bi-instagram px-1"></i></a>
                                                 <a href="https://twitter.com/Abhishekkar_"><i class="bi bi-twitter px-1"></i></a>
@@ -203,11 +203,10 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/PavanDuggal.png"
-                                            class="card-img-top img-card pavan-img" alt="...">
+                                        <img src="Resources/Speakers_images/PavanDuggal.png" class="card-img-top img-card pavan-img" alt="...">
                                         <h5 class="card-title-front">Pavan Duggal</h5>
-                                        <p class="lead card-text-front">Cyberlaw Advocate & Chairman -
-                                            ICCSL</p>
+                                        <p class="lead card-text-front">Cyberlaw Advocate & Chairman - ICCSL
+                                        </p>
 
                                     </div>
                                 </div>
@@ -218,18 +217,13 @@
                                     <div class="card-body">
                                         <div class="card-body px-4">
 
-                                            <h5 class="card-title-back "> Pavan
-                                                Duggal</h5>
+                                            <h5 class="card-title-back "> Pavan Duggal
+                                            </h5>
                                             <p class="card-text py-3 ">
-                                                Dr. Pavan Duggal is considered as one of the top 4 Cyber Lawyers around
-                                                the
-                                                world. World Domain Day recognizes him in the top 10 Cyber Lawyers
-                                                around
-                                                the world.
+                                                Dr. Pavan Duggal is considered as one of the top 4 Cyber Lawyers around the world. World Domain Day recognizes him in the top 10 Cyber Lawyers around the world.
                                             </p>
                                             <div class="social-icons">
-                                                <a class="facebook-icon-footer"
-                                                    href="https://www.facebook.com/Pavan-Duggal-Associates-Advocates-496482630386576/"><i
+                                                <a class="facebook-icon-footer" href="https://www.facebook.com/Pavan-Duggal-Associates-Advocates-496482630386576/"><i
                                                         class="bi bi-facebook px-1"></i></a>
                                                 <a href="https://www.linkedin.com/in/pavanduggal/?originalSubdomain=in"><i class="bi bi-linkedin px-1"></i></a>
                                                 <a href="https://twitter.com/pavanduggal?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="bi bi-twitter px-1"></i></a>
@@ -258,8 +252,7 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/Aditi.png"
-                                            class="card-img-top img-card aditi-img" alt="...">
+                                        <img src="Resources/Speakers_images/Aditi.png" class="card-img-top img-card aditi-img" alt="...">
                                         <h5 class="card-title-front">Aditi Patankar</h5>
                                         <p class="lead card-text-front">Mrs India UK Founder, Mrs India Singapore
                                         </p>
@@ -275,11 +268,7 @@
 
                                             <h5 class="card-title-back "> Aditi Patankar</h5>
                                             <p class="card-text py-3 ">
-                                                Mrs. Aditi is a certified marketing professional and entrepreneur.
-                                                She
-                                                has won the title of Mrs. India Singapore and is also an
-                                                international
-                                                pageant coach..
+                                                Mrs. Aditi is a certified marketing professional and entrepreneur. She has won the title of Mrs. India Singapore and is also an international pageant coach..
                                             </p>
                                             <div class="social-icons">
                                                 <!-- <a class="facebook-icon-footer"
@@ -311,8 +300,7 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/Bharat.png"
-                                            class="card-img-top img-card w-75 h-100 bharat-img" alt="...">
+                                        <img src="Resources/Speakers_images/Bharat.png" class="card-img-top img-card w-75 h-100 bharat-img" alt="...">
                                         <h5 class="card-title-front Kaushik-heading text-center ">Bharat Karnad
                                         </h5>
                                         <p class="lead card-text-front text-bharat">Defence Research Analyst</p>
@@ -327,14 +315,12 @@
                                         <div class="card-body px-4">
                                             <h5 class="card-title-back ">Bharat Karnad</h5>
                                             <p class="card-text py-3 ">
-                                                Bharat Karnad is a Research Professor for National Security Studies at
-                                                the Centre for Policy Research, New Delhi. He has been a Member of the
-                                                National Security Advisory Board, the Nuclear Doctrine-drafting Group
+                                                Bharat Karnad is a Research Professor for National Security Studies at the Centre for Policy Research, New Delhi. He has been a Member of the National Security Advisory Board, the Nuclear Doctrine-drafting Group
                                             </p>
                                             <div class="social-icons">
-                                                
+
                                                 <a href="https://bharatkarnad.com/"><i class="bi bi-globe"></i> </a>
-                                                
+
                                             </div>
 
                                         </div>
@@ -374,13 +360,11 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/Kaushik SHridhar.png"
-                                            class="card-img-top img-card" alt="...">
+                                        <img src="Resources/Speakers_images/Kaushik SHridhar.png" class="card-img-top img-card" alt="...">
                                         <h5 class="card-title-front Kaushik-heading text-center">Kaushik Shridhar
                                         </h5>
-                                        <p class="lead card-text-front">40 under 40 Most Influential
-                                            Asian-Australian
-                                            2020</p>
+                                        <p class="lead card-text-front">40 under 40 Most Influential Asian-Australian 2020
+                                        </p>
 
                                     </div>
                                 </div>
@@ -392,14 +376,10 @@
                                         <div class="card-body px-4">
                                             <h5 class="card-title-back ">Kaushik Sridhar</h5>
                                             <p class="card-text py-3 ">
-                                                Dr. Kaushik Sridhar has been a proffesional tennis player. He is an
-                                                intrapreneur, business coach,university lecturer and corporate
-                                                leader in
-                                                sustainability.
+                                                Dr. Kaushik Sridhar has been a proffesional tennis player. He is an intrapreneur, business coach,university lecturer and corporate leader in sustainability.
                                             </p>
                                             <div class="social-icons">
-                                                <a class="facebook-icon-footer"
-                                                    href="https://www.linkedin.com/in/kaushiksridhar83/"><i
+                                                <a class="facebook-icon-footer" href="https://www.linkedin.com/in/kaushiksridhar83/"><i
                                                         class="bi bi-linkedin px-1"></i></a>
                                                 <a href="https://www.instagram.com/followyourdot/"><i class="bi bi-instagram px-1"></i></a>
                                                 <a href="https://twitter.com/kaushiksridhar"><i class="bi bi-twitter px-1"></i></a>
@@ -427,9 +407,9 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/ArchieSingh.png"
-                                            class="card-img-top img-card archie-img" alt="...">
-                                        <h5 class="card-title-front">Archie Singh</span></h5>
+                                        <img src="Resources/Speakers_images/ArchieSingh.png" class="card-img-top img-card archie-img" alt="...">
+                                        <h5 class="card-title-front">Archie Singh</span>
+                                        </h5>
                                         <p class="lead card-text-front">Miss International Trans 2021 1st runner up
                                         </p>
 
@@ -442,20 +422,16 @@
                                     <div class="card-body">
                                         <div class="card-body px-4">
 
-                                            <h5 class="card-title-back ">Archie
-                                                Singh</h5>
+                                            <h5 class="card-title-back ">Archie Singh
+                                            </h5>
                                             <p class="card-text py-3 ">
-                                                Ms. Archie Singh is a successful trans model. She made history by
-                                                achieving 1st runner up position in Ms. International Trans 2021
-                                                held in
-                                                Columbia.
+                                                Ms. Archie Singh is a successful trans model. She made history by achieving 1st runner up position in Ms. International Trans 2021 held in Columbia.
                                             </p>
                                             <div class="social-icons">
-                                                <a class="facebook-icon-footer"
-                                                    href="https://www.facebook.com/mitarchieofficial"><i
+                                                <a class="facebook-icon-footer" href="https://www.facebook.com/mitarchieofficial"><i
                                                         class="bi bi-facebook px-1"></i></a>
                                                 <a href="https://www.instagram.com/mit_archie_official/?hl=en"><i class="bi bi-instagram px-1"></i></a>
-                                                
+
                                             </div>
 
                                         </div>
@@ -539,9 +515,9 @@
                                             class="bi bi-arrow-repeat"></i></button>
 
                                     <div class="card-body">
-                                        <img src="Resources/Speakers_images/Himanshi.png"
-                                            class="card-img-top img-card himanshi-img" alt="...">
-                                        <h5 class="card-title-front himanshi-head-front">Himanshi Singh</span></h5>
+                                        <img src="Resources/Speakers_images/Himanshi.png" class="card-img-top img-card himanshi-img" alt="...">
+                                        <h5 class="card-title-front himanshi-head-front">Himanshi Singh</span>
+                                        </h5>
                                         <p class="lead card-text-front himanshi-text-front">Youtuber, Entrepreneur & CTET Educator
                                         </p>
 
@@ -556,12 +532,10 @@
 
                                             <h5 class="card-title-back ">Himanshi Singh</h5>
                                             <p class="card-text py-3 ">
-                                                Himanshi Singh is a celebrated CTET tutor and has a great following of
-                                                her content on her youtube channel with over 2 Million subs. She has
-                                                also written books aiding CTET/STET preparation.
+                                                Himanshi Singh is a celebrated CTET tutor and has a great following of her content on her youtube channel with over 2 Million subs. She has also written books aiding CTET/STET preparation.
                                             </p>
                                             <div class="social-icons">
-                                                
+
                                                 <a href="https://www.instagram.com/himanshisinghofficial/?hl=en"><i class="bi bi-instagram px-1"></i></a>
                                                 <a href="https://twitter.com/himanshiiisingh?lang=en"><i class="bi bi-twitter px-1"></i></a>
                                                 <a href="https://www.youtube.com/channel/UCCUoz5ivpW5fbZIDGUTacbQ"><i class="bi bi-youtube px-1"></i></a>
@@ -618,34 +592,14 @@
             <div class="row">
                 <div class="col-md-4 box-1">
                     <div>
-                        <img class="img-fluid w-50 py-1" src="Resources/Speakers/footer-logo.svg" alt="">
+                        <img class="img-fluid w-50 py-1" src="../Resources/Images/HomePage/tedxlogo.png" alt="">
                     </div>
                     <div>
-                        <ul class="navbar-nav py-4">
+                        <div class=" py-3">
 
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Speakers/Speakers.html">Speakers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Sponsors/sponsors.html">Sponsor</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Discover Final/Discover.html">Discover</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../MEET_TEAM/meet_team.html">Team</a>
-                            </li>
+                            <p>This independent TEDx event is operated under license from TED.</p>
 
-
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation" href="../About-tedx/index.html">About
-                                    Us</a>
-                            </li>
-                        </ul>
+                        </div>
                     </div>
 
 
@@ -657,25 +611,20 @@
                     </div>
 
                     <div>
+
                         <ul class="navbar-nav pt-4">
 
                             <li class="nav-item">
-                                <a class="nav-link youtube-icon-footer"
-                                    href="https://youtube.com/channel/UC4Pnvz8osPjUhzBM1KTIibg"> <i
-                                        class="bi bi-youtube px-1"></i>
-                                    Youtube</a>
+                                <a class="nav-link youtube-icon-footer" href="https://www.youtube.com/user/TEDxTalks/videos"> <i class="bi bi-youtube px-1"></i> Youtube
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link twitter-icon-footer"
-                                    href="https://www.linkedin.com/company/tedxiitram/"> <i
-                                        class="bi bi-linkedin px-1"></i>
-                                    Linkedin</a>
+                                <a class="nav-link twitter-icon-footer" href="mailto:tedxvbit@gmail.com"> <i class="bi bi-envelope px-1"></i> Gmail
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link instagram-icon-footer"
-                                    href="https://www.instagram.com/tedxiitram/?utm_medium=copy_link"> <i
-                                        class="bi bi-instagram px-1"></i>
-                                    Instagram</a>
+                                <a class="nav-link instagram-icon-footer" href="https://www.instagram.com/tedxvbit?igsh=amx3Y3JqOGxtcG52"> <i class="bi bi-instagram px-1"></i> Instagram
+                                </a>
                             </li>
 
                         </ul>
@@ -696,26 +645,17 @@
                         <div>
                             <div class="row">
                                 <div class="col-2">
-                                    <i class="bi bi-envelope-fill" style="color: #e62b1e; font-size: 2rem;"></i>
+
                                 </div>
-                                <div class="col-6">
-                                    <p style="opacity: 0.4;font-size: 0.7rem;">Email</p>
-                                    <p class="hover-underline-animation">tedxiitram@iitram.ac.in</p>
-                                </div>
+                                <div class="row" ">            
+                                <p class=" ">Prajwal: +91 8179660306 <br> <span style="color: #e62b1e; ">Marketing Lead</span></p>
+                                <p class=" ">Sandhya: +91 9014289829 <br> <span style="color: #e62b1e; ">Co-Licensee</span></p>
+                                <p class=" ">Yashwanth: +91 9542129793 <br> <span style="color: #e62b1e; ">Licensee</span></p>
+                              </div>
                             </div>
-
-                            <div class="row">
-                                <div class="col-2">
-                                    <i style="color: #e62b1e; font-size: 2rem" class="bi bi-telephone"></i>
-                                </div>
-                                <div class="col-6">
-                                    <p style="opacity: 0.4;font-size: 0.7rem;">Phone Number</p>
-                                    <p class="hover-underline-animation">+919427004743</p>
-                                </div>
-                            </div>
-                        </div>
-
-
+                
+                           
+                
 
                     </form>
 
@@ -744,7 +684,7 @@
 
 
     <!-- scrolljs reveal-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal "></script>
 
 
 
@@ -753,18 +693,18 @@
 
 
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "></script>
 
 
     <!-- FONT AWSm -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js "
         integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
 
     <!-- Custom JS -->
-    <script src="Speakers.js"></script>
+    <script src="Speakers.js "></script>
 
 
 </body>

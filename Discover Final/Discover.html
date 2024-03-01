@@ -4,46 +4,59 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="TEDxIITRAM" />
-	<meta name="keywords" content="TEDxIITRAM TEDx" />
-	<meta name="author" content="TEDxIITRAM" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TEDxIITRAM" />
+    <meta name="keywords" content="TEDxIITRAM TEDx" />
+    <meta name="author" content="TEDxIITRAM" />
 
-   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-  <link rel="icon" href="../Resources/Favicon/favicon.ico" type="image/png" sizes="16x16">
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TBNNZ2X');</script>
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+    <link rel="icon" href="../Resources/Favicon/favicon.ico" type="image/png" sizes="16x16">
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TBNNZ2X');
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7LHKWTEY"></script>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-224178361-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224178361-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-224178361-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-224178361-1');
+    </script>
 
 
     <!-- Bootstrap icons cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- custom css -->
     <link rel="stylesheet" href="Discover.css">
@@ -58,13 +71,11 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- illustration-------------------------------------------------------------------------------- -->
 
-    <img class="img-fluid w-75 illustration-left-homepage"
-        src="Resources/Images/Discover/illustration-left-homepage.svg" alt="" srcset="">
+    <img class="img-fluid w-75 illustration-left-homepage" src="Resources/Images/Discover/illustration-left-homepage.svg" alt="" srcset="">
 
 
     <!-- Right illustration -->
-    <img class="img-fluid w-75 nav-right-illustration" src="Resources/Images/Discover/navbar-right-illustration.svg"
-        alt="" srcset="">
+    <img class="img-fluid w-75 nav-right-illustration" src="Resources/Images/Discover/navbar-right-illustration.svg" alt="" srcset="">
 
 
     <!--_________________________________________________________________________________________  -->
@@ -78,18 +89,16 @@
             <div class="container">
                 <!-- Navbar Logo -->
                 <a class="navbar-brand" href="../index.html">
-                    <img class="w-75" src="Resources/Images/HomePage/tedxlogo.png" alt="" srcset="" />
+                    <img class="w-50" src="../Resources/Images/HomePage/tedxlogo.png" alt="" srcset="" />
                 </a>
                 <!-- Hamburger Menu -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto px-3">
-                       
+
                         <li class="nav-item px-4">
                             <a class="nav-link hover-underline-animation" href="../index.html">Home</a>
                         </li>
@@ -146,18 +155,18 @@
 
                     <div class="col-md-8 ">
                         <div class="box-1">
-                            <img class="img-fluid w-50 py-1 logo" src="Resources/Images/ThemePage/theme.png" alt=""
-                                srcset="">
+                            <img class="img-fluid w-75 py-1 logo" src="../Resources/Images/ThemePage/theme.png" alt="" srcset="">
                         </div>
 
                         <div class="py-3">
-                            <p style="font-size: 1.2rem;">This season's theme is all about embracing the dichotomy of audacity and hope, replacing fear with courage, doubt with hope, and limitations with endless possibilities. We at TEDxVBIT, are all about celebrating those who have dared to dream big, break the rules, and create a brighter future.
+                            <p style="font-size: 1.2rem;">This season's theme is all about embracing the dichotomy of audacity and hope, replacing fear with courage, doubt with hope, and limitations with endless possibilities. We at TEDxVBIT, are all about celebrating those who have
+                                dared to dream big, break the rules, and create a brighter future.
                             </p>
                         </div>
                     </div>
 
                     <div class="col-md-4 mt-md-3 ">
-                        <img src="Resources/Images/ThemePage/x.png" alt="x logo">
+                        <img src="../Resources/Images/ThemePage/x.png" alt="x logo" />
                     </div>
                 </div>
 
@@ -212,8 +221,7 @@
 
     <!-- illustation -->
 
-    <img class="img-fluid illustration-footer w-75" src="Resources/Images/Speakers/Footer-Section/illustration.svg"
-        alt="">
+    <img class="img-fluid illustration-footer w-75" src="../Resources/Images/Speakers/Footer-Section/illustration.svg" alt="">
 
 
     <footer class="footer-section py-5 my-5">
@@ -222,13 +230,13 @@
             <div class="row">
                 <div class="col-md-4 box-1">
                     <div>
-                        <img class="img-fluid w-50 py-1" src="Resources/Images/HomePage/tedxlogo.ong" alt="">
+                        <img class="img-fluid w-50 py-1" src="../Resources/Images/HomePage/tedxlogo.png" alt="">
                     </div>
                     <div>
                         <div class=" py-3">
-                            
+
                             <p>This independent TEDx event is operated under license from TED.</p>
-                            
+
                         </div>
                     </div>
 
@@ -241,23 +249,23 @@
                     </div>
 
                     <div>
-                        
+
                         <ul class="navbar-nav pt-4">
-        
+
                             <li class="nav-item">
-                              <a class="nav-link youtube-icon-footer" href="https://www.youtube.com/user/TEDxTalks/videos"> <i class="bi bi-youtube px-1"></i>
-                                Youtube</a>
+                                <a class="nav-link youtube-icon-footer" href="https://www.youtube.com/user/TEDxTalks/videos"> <i class="bi bi-youtube px-1"></i> Youtube
+                                </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link twitter-icon-footer" href="mailto:tedxvbit@gmail.com"> <i class="bi bi-envelope px-1"></i>
-                                Gmail</a>
+                                <a class="nav-link twitter-icon-footer" href="mailto:tedxvbit@gmail.com"> <i class="bi bi-envelope px-1"></i> Gmail
+                                </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link instagram-icon-footer" href="https://www.instagram.com/tedxvbit?igsh=amx3Y3JqOGxtcG52"> <i class="bi bi-instagram px-1"></i>
-                                Instagram</a>
+                                <a class="nav-link instagram-icon-footer" href="https://www.instagram.com/tedxvbit?igsh=amx3Y3JqOGxtcG52"> <i class="bi bi-instagram px-1"></i> Instagram
+                                </a>
                             </li>
-                            
-                          </ul>
+
+                        </ul>
 
 
                     </div>
@@ -274,13 +282,13 @@
 
                         <div>
                             <div class="row">
-                              <div class="col-2">
-                                
-                              </div>
-                              <div class="row"">            
-                                <p class="">Prajwal: +91 8179660306 <br> <span style="color: #e62b1e;">Marketing Lead</span></p>
-                                <p class="">Sandhya: +91 9014289829 <br> <span style="color: #e62b1e;">Co-Licensee</span></p>
-                                <p class="">Yashwanth: +91 9542129793 <br> <span style="color: #e62b1e;">Licensee</span></p>
+                                <div class="col-2">
+
+                                </div>
+                                <div class="row" ">            
+                                <p class=" ">Prajwal: +91 8179660306 <br> <span style="color: #e62b1e; ">Marketing Lead</span></p>
+                                <p class=" ">Sandhya: +91 9014289829 <br> <span style="color: #e62b1e; ">Co-Licensee</span></p>
+                                <p class=" ">Yashwanth: +91 9542129793 <br> <span style="color: #e62b1e; ">Licensee</span></p>
                               </div>
                             </div>
                 
@@ -303,16 +311,16 @@
 
 
 <!-- scrolljs reveal-->
-<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal "></script>
 
 
     <!--  Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM "
+        crossorigin="anonymous "></script>
 
     <!-- custom js -->
-    <script src="Discover.js"></script>
+    <script src="Discover.js "></script>
 
 </body>
 

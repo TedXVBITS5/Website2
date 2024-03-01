@@ -20,20 +20,31 @@
     <meta name="twitter:url" content="" />
     <meta name="twitter:card" content="" />
     <link rel="icon" href="../Resources/Favicon/favicon.ico" type="image/png" sizes="16x16">
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TBNNZ2X');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TBNNZ2X');
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7LHKWTEY"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224178361-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-224178361-1');
@@ -46,28 +57,23 @@
 
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
 
     <!-- ANIMATE CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
 
     <!-- OWL CAROUSEL______________________________________________________________________________________ -->
 
     <!-- OWL CAROSUEL MINIFIED -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <!-- OWL CAROSUEL THEME -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 
 
 
@@ -88,24 +94,20 @@
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBNNZ2X" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <img class="img-fluid illustration-left-homepage h-75" src="Resources/Meet The Team/illustration-left-homepage.svg"
-        alt="" srcset="">
+    <img class="img-fluid illustration-left-homepage h-75" src="Resources/Meet The Team/illustration-left-homepage.svg" alt="" srcset="">
 
 
     <!-- Right illustration -->
-    <img class="img-fluid w-75 nav-right-illustration" src="Resources/Meet The Team/navbar-right-illustration.svg"
-        alt="" srcset="">
+    <img class="img-fluid w-75 nav-right-illustration" src="Resources/Meet The Team/navbar-right-illustration.svg" alt="" srcset="">
 
     <nav class="navbar navbar-expand-lg py-4 fixed-top navbar-custom navbar-dark">
         <div class="container">
             <!-- Navbar Logo -->
             <a class="navbar-brand" href="../index.html">
-                <img class="w-75" src="Resources/Meet The Team/navbarlogo.svg" alt="" srcset="" />
+                <img class="w-50" src="../Resources/Images/HomePage/tedxlogo.png" alt="" srcset="" />
             </a>
             <!-- Hamburger Menu -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -113,14 +115,13 @@
                 <ul class="navbar-nav ms-auto px-3">
 
                     <li class="nav-item px-4">
+                        <a class="nav-link hover-underline-animation" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
                         <a class="nav-link hover-underline-animation" href="../Speakers/Speakers.html">Speakers</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link hover-underline-animation" href="../Sponsors/sponsors.html">Sponsor</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link hover-underline-animation"
-                            href="../Discover Final/Discover.html">Discover</a>
+                        <a class="nav-link hover-underline-animation" href="../Discover Final/Discover.html">Discover</a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link hover-underline-animation" href="meet_team.html">Team</a>
@@ -129,11 +130,10 @@
                         <a class="nav-link hover-underline-animation" href="../About-tedx/index.html">FAQ's</a>
                     </li>
                 </ul>
-                <form class="py-2 px-3"
-                    action="javascript:void( window.open( 'https://forms.gle/UZMr2JvNuZKxLsPn7', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) )">
+                <form class="px-3 py-2" action="javascript:void( window.open( 'https://bit.ly/TEDxVBITS5', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) )">
                     <button class="btn btn-outline-danger btn-custom">
-                        Participate Now <i class="bi bi-chevron-right ps-2"></i>
-                    </button>
+            Get Pass
+          </button>
                 </form>
 
 
@@ -172,8 +172,7 @@
             <div class="row justify-content-center mb-5 pb-5 teamss">
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="Resources/Team/Malhar Solanki.jpg" class=" img-fluid rounded-circle img-top "
-                            alt="...">
+                        <img src="Resources/Team/Malhar Solanki.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                         <div class="card-body">
                             <h5 class="card-title px-3  fw-bold">Malhar Solanki</h5>
                             <p class="card-text  px-3  text-muted">Licensee | Organiser </p>
@@ -203,8 +202,7 @@
 
                 <div class="col-lg-3">
                     <div class="card">
-                        <img src="Resources/Team/Divyansh_Anand.jpeg" class=" img-fluid rounded-circle img-top "
-                            alt="...">
+                        <img src="Resources/Team/Divyansh_Anand.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                         <div class="card-body">
                             <h5 class="card-title  px-3  fw-bold">Divyansh Anand</h5>
                             <p class="card-text px-3 text-muted">Co-Organiser</p>
@@ -253,8 +251,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Gurpreet Singh.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Gurpreet Singh.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Gurpreet Singh</h5>
                                         <p class="card-text  px-3  text-muted">Dev Team Lead </p>
@@ -274,8 +271,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Tathya_Bhatt.jpeg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Tathya_Bhatt.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Tathya Bhatt</h5>
                                         <p class="card-text px-3 text-muted">Design Team Lead</p>
@@ -293,8 +289,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/AtharvKarhale.jpeg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/AtharvKarhale.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Atharva Karhale</h5>
                                         <p class="card-text px-3 text-muted">Design Team</p>
@@ -312,8 +307,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
-                                        <img src="Resources/Team/Saransh Jaiswal.png"
-                                            class=" img-fluid rounded-circle img-top " alt="...">
+                                        <img src="Resources/Team/Saransh Jaiswal.png" class=" img-fluid rounded-circle img-top " alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title  px-3  fw-bold">Saransh Jaiswal</h5>
                                             <p class="card-text px-3 text-muted">Design Team</p>
@@ -326,8 +320,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
-                                        <img src="Resources/Team/Yashasvi.jpeg"
-                                            class=" img-fluid rounded-circle img-top " alt="...">
+                                        <img src="Resources/Team/Yashasvi.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title px-3  fw-bold">Yashasvi Pandey</h5>
                                             <p class="card-text  px-3  text-muted">Design Team</p>
@@ -360,8 +353,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Apoorv Pandey.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Apoorv Pandey.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Apoorv Pandey</h5>
                                         <p class="card-text  px-3  text-muted">Content Team</p>
@@ -379,8 +371,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Shresth Verma.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Shresth Verma.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Shresth Verma</h5>
                                         <p class="card-text px-3 text-muted">Content Team</p>
@@ -398,8 +389,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Nehal Agrawal.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Nehal Agrawal.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Nehal Agrawal</h5>
                                         <p class="card-text px-3 text-muted">Content Team</p>
@@ -415,8 +405,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Antara Tandon.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Antara Tandon.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Antara Tandon</h5>
                                         <p class="card-text px-3 text-muted">Content Team</p>
@@ -448,8 +437,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Saket Tripathi.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Saket Tripathi.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Saket Tripathi</h5>
                                         <p class="card-text  px-3  text-muted">Research Team</p>
@@ -461,8 +449,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Siddharth Singh.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Siddharth Singh.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Siddharth Singh</h5>
                                         <p class="card-text px-3 text-muted">Research Team</p>
@@ -479,8 +466,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Raj Chetia.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Raj Chetia.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Raj Chetia</h5>
                                         <p class="card-text px-3 text-muted">Research Team</p>
@@ -500,8 +486,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Khushi Deep.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Khushi Deep.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Khushi Deep</h5>
                                         <p class="card-text px-3 text-muted">Research Team</p>
@@ -538,8 +523,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Harsh_Lodhi.jpeg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Harsh_Lodhi.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Harsh Lodhi</h5>
                                         <p class="card-text  px-3  text-muted">Marketing Team</p>
@@ -557,16 +541,14 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Yash RautS.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Yash RautS.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Yash Raut</h5>
                                         <p class="card-text px-3 text-muted">Marketing Team</p>
                                         <div class="social-icons">
                                             <!-- <a href="https://www.facebook.com/yash.raut.96155"><i
                                                     class="bi bi-facebook"></i></a> -->
-                                            <a
-                                                href="https://www.instagram.com/invites/contact/?i=pka2bkb8e3u0&utm_content=38tzgh4"><i
+                                            <a href="https://www.instagram.com/invites/contact/?i=pka2bkb8e3u0&utm_content=38tzgh4"><i
                                                     class="bi bi-instagram"></i></a>
                                             <a href="https://www.linkedin.com/in/yash-raut-69969b197"><i
                                                     class="bi bi-linkedin"></i></a>
@@ -578,8 +560,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Jash Rana.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Jash Rana.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Jash Rana</h5>
                                         <p class="card-text px-3 text-muted">Marketing Team</p>
@@ -598,8 +579,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/DhruvB.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/DhruvB.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Dhruv Bhinarwala</h5>
                                         <p class="card-text  px-3  text-muted">Marketing Team</p>
@@ -631,8 +611,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Kamlesh Kumar.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Kamlesh Kumar.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title  px-3  fw-bold">Kamlesh Kumar</h5>
                                         <p class="card-text px-3 text-muted">Outreach Team</p>
@@ -646,8 +625,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Garv Anand.jpg" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Garv Anand.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Garv Anand</h5>
                                         <p class="card-text px-3 text-muted">Outreach Team</p>
@@ -664,8 +642,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Manvendra Pratap Singh.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Manvendra Pratap Singh.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Manvendra Singh</h5>
                                         <p class="card-text  px-3  text-muted">Outreach Team</p>
@@ -685,8 +662,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
-                                        <img src="Resources/Team/Akshat Garg.jpg"
-                                            class=" img-fluid rounded-circle img-top " alt="...">
+                                        <img src="Resources/Team/Akshat Garg.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title px-3  fw-bold">Akshat Garg</h5>
                                             <p class="card-text  px-3  text-muted">Outreach Team </p>
@@ -704,8 +680,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
-                                        <img src="Resources/Team/Aditya H Singh.jpeg"
-                                            class=" img-fluid rounded-circle img-top " alt="...">
+                                        <img src="Resources/Team/Aditya H Singh.jpeg" class=" img-fluid rounded-circle img-top " alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title px-3  fw-bold">Aditya H Singh</h5>
                                             <p class="card-text px-3 text-muted">Outreach Team</p>
@@ -721,8 +696,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="card">
-                                        <img src="Resources/Team/Nidhi Choudhary.jpg"
-                                            class=" img-fluid rounded-circle img-top " alt="...">
+                                        <img src="Resources/Team/Nidhi Choudhary.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title  px-3  fw-bold">Nidhi Choudhary</h5>
                                             <p class="card-text px-3 text-muted">Outreach Team</p>
@@ -749,8 +723,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Harsh Vesuwala.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Harsh Vesuwala.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Harsh Vesuwala</h5>
                                         <p class="card-text  px-3  text-muted">Logistics Team</p>
@@ -769,8 +742,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Lalit.png" class=" img-fluid rounded-circle img-top "
-                                        alt="...">
+                                    <img src="Resources/Team/Lalit.png" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Lalit Kumar</h5>
                                         <p class="card-text px-3 text-muted">Logistics Team</p>
@@ -802,8 +774,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Kshitij Ganavarapu.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Kshitij Ganavarapu.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Kshitij Ganavarapu</h5>
                                         <p class="card-text  px-3  text-muted">Co-Organiser</p>
@@ -822,8 +793,7 @@
 
                             <div class="col-lg-3 col-md-6">
                                 <div class="card">
-                                    <img src="Resources/Team/Abhishek Kumar.jpg"
-                                        class=" img-fluid rounded-circle img-top " alt="...">
+                                    <img src="Resources/Team/Abhishek Kumar.jpg" class=" img-fluid rounded-circle img-top " alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title px-3  fw-bold">Abhishek Kumar</h5>
                                         <p class="card-text px-3 text-muted">Co-Organiser</p>
@@ -878,33 +848,14 @@
             <div class="row">
                 <div class="col-md-4 box-1">
                     <div>
-                        <img class="img-fluid w-50 py-1" src="Resources/Meet The Team/footer-logo.svg" alt="">
+                        <img class="img-fluid w-50 py-1" src="../Resources/Images/HomePage/tedxlogo.png" alt="">
                     </div>
                     <div>
-                        <ul class="navbar-nav py-4">
+                        <div class=" py-3">
 
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Speakers/Speakers.html">Speakers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Sponsors/sponsors.html">Sponsor</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation"
-                                    href="../Discover Final/Discover.html">Discover</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation" href="meet_team.html">Team</a>
-                            </li>
+                            <p>This independent TEDx event is operated under license from TED.</p>
 
-
-                            <li class="nav-item">
-                                <a class="nav-link hover-underline-animation" href="../About-tedx/index.html">About
-                                    Us</a>
-                            </li>
-                        </ul>
+                        </div>
                     </div>
 
 
@@ -916,25 +867,20 @@
                     </div>
 
                     <div>
+
                         <ul class="navbar-nav pt-4">
 
                             <li class="nav-item">
-                                <a class="nav-link youtube-icon-footer"
-                                    href="https://youtube.com/channel/UC4Pnvz8osPjUhzBM1KTIibg"> <i
-                                        class="bi bi-youtube px-1"></i>
-                                    Youtube</a>
+                                <a class="nav-link youtube-icon-footer" href="https://www.youtube.com/user/TEDxTalks/videos"> <i class="bi bi-youtube px-1"></i> Youtube
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link twitter-icon-footer"
-                                    href="https://www.linkedin.com/company/tedxiitram/"> <i
-                                        class="bi bi-linkedin px-1"></i>
-                                    Linkedin</a>
+                                <a class="nav-link twitter-icon-footer" href="mailto:tedxvbit@gmail.com"> <i class="bi bi-envelope px-1"></i> Gmail
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link instagram-icon-footer"
-                                    href="https://www.instagram.com/tedxiitram/?utm_medium=copy_link"> <i
-                                        class="bi bi-instagram px-1"></i>
-                                    Instagram</a>
+                                <a class="nav-link instagram-icon-footer" href="https://www.instagram.com/tedxvbit?igsh=amx3Y3JqOGxtcG52"> <i class="bi bi-instagram px-1"></i> Instagram
+                                </a>
                             </li>
 
                         </ul>
@@ -955,25 +901,17 @@
                         <div>
                             <div class="row">
                                 <div class="col-2">
-                                    <i class="bi bi-envelope-fill" style="color: #e62b1e; font-size: 2rem;"></i>
-                                </div>
-                                <div class="col-6">
-                                    <p style="opacity: 0.4;font-size: 0.7rem;">Email</p>
-                                    <p class="hover-underline-animation">tedxiitram@iitram.ac.in</p>
-                                </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-2">
-                                    <i style="color: #e62b1e; font-size: 2rem" class="bi bi-telephone"></i>
                                 </div>
-                                <div class="col-6">
-                                    <p style="opacity: 0.4;font-size: 0.7rem;">Phone Number</p>
-                                    <p class="hover-underline-animation">+919427004743</p>
-                                </div>
+                                <div class="row" ">            
+                                <p class=" ">Prajwal: +91 8179660306 <br> <span style="color: #e62b1e; ">Marketing Lead</span></p>
+                                <p class=" ">Sandhya: +91 9014289829 <br> <span style="color: #e62b1e; ">Co-Licensee</span></p>
+                                <p class=" ">Yashwanth: +91 9542129793 <br> <span style="color: #e62b1e; ">Licensee</span></p>
+                              </div>
                             </div>
-                        </div>
-
+                
+                           
+                
 
                     </form>
 
@@ -1004,14 +942,14 @@
 
 
     <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
 
 
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "></script>
     <!-- __________________________________________OWL CAROUSEL____________________________________________  -->
 
 
@@ -1020,12 +958,12 @@
 
     <!-- scrolljs reveal-->
 
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- <script src="https://unpkg.com/scrollreveal "></script> -->
 
 
     <!-- ____________________________________________Custom JS______________________________________________ -->
 
-    <script src="meet_team.js"></script>
+    <script src="meet_team.js "></script>
 
 
 </body>
