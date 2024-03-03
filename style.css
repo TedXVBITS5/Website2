@@ -388,13 +388,7 @@ body {
 
 .slider-container {
     display: flex;
-    width: calc(250*18);
-    animation: scroll 20s linear infinite;
-}
-
-.slider-container {
-    display: flex;
-    width: calc(250*18);
+    width: calc(262px * 5);
     animation: scroll 20s linear infinite;
 }
 
@@ -403,14 +397,13 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px*9));
+        transform: translateX(calc(-262px * 5));
     }
 }
 
-
-/* .slide-image img:hover{
-  transform: translateZ(20px);
-} */
+.slide-image img:hover {
+    transform: translateZ(20px);
+}
 
 .slider-container:hover {
     animation-play-state: paused;
