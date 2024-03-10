@@ -21,6 +21,8 @@ body {
     scroll-behavior: smooth;
     position: relative;
     min-height: 100%;
+    background-image: url("Resources/Images/sponser-left-illustration.svg");
+    background-size: cover;
 }
 
 
@@ -155,9 +157,14 @@ body {
 }
 
 .sponsor-name {
-    color: #e62b1e;
-    font-weight: 900;
+    color: #ffffff;
+    font-weight: 450;
     font-size: 2.5rem;
+}
+
+.sponsor {
+    display: flex;
+    align-items: center;
 }
 
 .sponsor-type {
@@ -185,7 +192,7 @@ body {
 }
 
 .enfiled-name {
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .trinker-logo {
