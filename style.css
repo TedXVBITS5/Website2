@@ -388,7 +388,7 @@ body {
 
 .slider-container {
     display: flex;
-    width: calc(262px * 5);
+    width: calc(262px * 9);
     animation: scroll 20s linear infinite;
 }
 
