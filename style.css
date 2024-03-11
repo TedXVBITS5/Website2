@@ -388,7 +388,7 @@ body {
 
 .slider-container {
     display: flex;
-    width: calc(262px * 9);
+    width: calc(262px * 13);
     animation: scroll 20s linear infinite;
 }
 
@@ -397,7 +397,7 @@ body {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-262px * 9));
+        transform: translateX(calc(-262px * 13));
     }
 }
 
